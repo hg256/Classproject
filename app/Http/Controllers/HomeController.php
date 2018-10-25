@@ -28,6 +28,6 @@ class HomeController extends Controller
 
     public function about()
     {
-        return view('about', ['test' => 'test']);
+        return view('about');
     }
 }
